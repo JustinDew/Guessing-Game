@@ -1,4 +1,0 @@
-AAAA          11
-BBBB          11
-CCCC          11
-DDDD          11

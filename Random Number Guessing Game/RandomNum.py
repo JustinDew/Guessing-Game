@@ -69,7 +69,7 @@ if tries <= maxTries and win:
             name = input("High Score! What name would you like to input? (less than 12 characters) ")
             name = name.upper()
             if len(name) > 12:
-                name = "peasant"
+                name = "PEASANT"
             highScoreList.insert(count, spaces(name) + str(tries))
             highScoreList.insert(count + 1, "\n")
             highScoreList.pop()
@@ -98,4 +98,5 @@ if name == "RESET":
     highScoreFile.writelines(reset)
     print("\nHigh scores have been reset.")
     highScoreFile.close()
-        
+    
+input("Press input to exit.")

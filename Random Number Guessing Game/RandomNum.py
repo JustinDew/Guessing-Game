@@ -99,4 +99,4 @@ if name == "RESET":
     print("\nHigh scores have been reset.")
     highScoreFile.close()
     
-input("Press input to exit.")
+input("Press enter to exit.")
